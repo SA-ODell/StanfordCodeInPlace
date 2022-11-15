@@ -1,0 +1,45 @@
+" Nimmopalooza 2021: V3.0"
+Steve O'Dell
+Code in Place
+Showcase
+Project 7
+
+Nimm 3.0: Nimmapalooza 2021 https://replit.com/talk/share/Code-in-Place-2021-Final-Project/140369 
+Purpose: I knew I was going to run into a time crunch on this project, so I went with variations on a theme 
+instead of creating something entirely new. One of the projects we did after moving on from Karel 
+was to code a console version of the game of Nimm. Getting started, I checked out Wikipedia to 
+learn a little bit about the history of the game. Nimm (also known as Nim) is a little bit like 
+football (soccer), in that it was pretty much inevitable and has dozens of origin stories, 
+and there are numerous variations on the them. It's played everywhere and by everyone. 
+
+V1. And my final project is sort of the same thing. I took the first version that we did in class 
+and I added some graphics to it. Nothing special, just a representation of the pile that gets smaller 
+as stones are taken from the pile. Note: There's a README for each of these programs, which goes into 
+how I framed the problem and the requirements, assumptions, and stretch goals for each of them. 
+
+https://replit.com/@PoudreCoding/AncientNimm#main.py 
+
+V2 Then I made a second version which lets one player play against a computer. 
+
+https://replit.com/@PoudreCoding/OnePlayerNimm#main.py 
+
+V3 The third version plays the game using a different set of rules. Instead of drawing stones from one pile, 
+players can take from one of numerous piles, but can only take from one pile at a time. 
+This game would not make any sense without a graphic presentation of the current state of the piles, s
+o I used Lists to add and delete a stone emoji to represent game play. 
+
+https://replit.com/@PoudreCoding/ThreePileNumification#main.py 
+
+Stretch goals: - Integrate one player and two player versions into one game - Use a random number or 
+user input to change the size of the pile. (I actually started out with randomized piles, but I didn't 
+like the way the diamonds looked, so I went with user input for 3-5 piles, then a cascade or semi-pyramid 
+of stones.) - It is possible to play Nim in two different modes: last stone loses or last stone wins. 
+The brute force way would be to ask at the top which way the user wants to play, and then go down one 
+of two different paths accordingly. But I believe there's a way to use the existing algorithm and add 
+a math check at the very end to determine the winner (or loser). - Use tkinter or another library to 
+create a GUI and play the game with clicks instead of numeric inputs. In a sense, this makes the code 
+simpler, because you no longer have to check for valid input (eg, entering a 3 instead of a 1 or 2) 
+because the user can only click one of two buttons. - I would like to research the math behind winning 
+strategies and then figure out some way to make the computer always win or nearly always win.
+
+Share   
